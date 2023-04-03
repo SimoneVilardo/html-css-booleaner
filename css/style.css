@@ -20,6 +20,7 @@
 /*FINE HEADER*/
 
 /*INIZIO MAIN*/
+/*INIZIO titolo + immagini + descrizione*/
 #contenitore{
     margin-left: 10px;
 }
@@ -42,6 +43,21 @@ h1{
 #testo-celeste{
     color: rgb(0, 153, 255);
 }
+/*FINE titolo + immagini + descrizione*/
+
+/*INIZIO Parte testo + ul*/
+.testo-lorem{
+    font-size: 25px;
+}
+
+.yellow{
+    background-color: yellow;
+}
+ ul{
+    margin: 30px;
+    font-size: 20px;
+ }
+/*FINE Parte testo + ul*/
 
 
 
