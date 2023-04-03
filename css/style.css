@@ -98,6 +98,31 @@ thead{
  }
 /* FINE Tabella + testo  */
 
-
-
 /*FINE MAIN*/
+
+/* INIZIO FOOTER */
+#immagine-monitor {
+    padding: 10px;
+    background-image: url('../img/monitor.jpg');
+    background-repeat: no-repeat;
+    color:white;
+    font-size: 140%;
+    font-weight: normal;
+    font-weight: bold;
+    width: 250px;
+    height: 200px;
+  }
+
+  #immagine-graph {
+    padding: 10px;
+    background-image: url('../img/graph.jpg');
+    background-repeat: no-repeat;
+    color:white;
+    font-size: 140%;
+    font-weight: normal;
+    font-weight: bold;
+    width: 250px;
+    height: 200px;
+    margin-top: 10px;
+  }
+/* FINE FOOTER */
