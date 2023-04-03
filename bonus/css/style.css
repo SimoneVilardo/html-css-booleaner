@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*INIZIO HEADER*/
+#logo{
+    width: 250px;
+    padding-top: 70px;
+    margin-left: 100px;
+}
+
+.sfondo{
+    height: 150px;
+    background-image: url(../img/pattern.png);
+    background-size: 600px;
+    background-color: rgb(0, 153, 255);
+}
+/*FINE HEADER*/
+
+/*INIZIO MAIN*/
+/*INIZIO titolo + immagini + descrizione*/
+#contenitore{
+    margin-left: 10px;
+   margin: 0 100px;
+}
+
+#titolo{
+    padding: 30px 10px;
+}
+
+h1{
+    font-size: 55px;
+}
+
+.testo-grigio{
+    color: grey;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+#testo-celeste{
+    color: rgb(0, 153, 255);
+}
+/*FINE titolo + immagini + descrizione*/
+
+/*INIZIO Parte testo + ul*/
+.testo-lorem{
+    font-size: 25px;
+}
+
+.yellow{
+    background-color: yellow;
+}
+ ul{
+    margin: 30px;
+    font-size: 20px;
+ }
+/*FINE Parte testo + ul*/
+
+/* INIZIO Tabella + testo  */
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead{
+    background-color: rgba(0, 102, 255, 0.806);
+    color: white;
+    text-align: left;
+}
+ .t-uno{
+    width:20%;
+ }
+
+ .t-due{
+    width:20%;
+ }
+ 
+ .t-tre{
+    width:50%;
+ }
+
+ tbody{
+    background-color: rgba(0, 217, 255, 0.645);
+    font-size: 20px;
+    
+ }
+
+ #sfondo-bianco{
+    background-color: white;
+ }
+
+ .testo-due{
+    margin: 30px 0;
+    font-size: 25px;
+ }
+/* FINE Tabella + testo  */
+
+/*FINE MAIN*/
+
+/* INIZIO FOOTER */
+#immagine-monitor {
+    padding: 10px;
+    background-image: url('../img/monitor.jpg');
+    background-repeat: no-repeat;
+    color:white;
+    font-size: 140%;
+    font-weight: normal;
+    font-weight: bold;
+    width: 250px;
+    height: 200px;
+  }
+
+  #immagine-graph {
+    padding: 10px;
+    background-image: url('../img/graph.jpg');
+    background-repeat: no-repeat;
+    color:white;
+    font-size: 140%;
+    font-weight: normal;
+    font-weight: bold;
+    width: 250px;
+    height: 200px;
+    margin-top: 10px;
+  }
+/* FINE FOOTER */
