@@ -59,6 +59,45 @@ h1{
  }
 /*FINE Parte testo + ul*/
 
+/* INIZIO Tabella + testo  */
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead{
+    background-color: rgba(0, 102, 255, 0.806);
+    color: white;
+    text-align: left;
+}
+ .t-uno{
+    width:20%;
+ }
+
+ .t-due{
+    width:20%;
+ }
+ 
+ .t-tre{
+    width:50%;
+ }
+
+ tbody{
+    background-color: rgba(0, 217, 255, 0.645);
+    font-size: 20px;
+    
+ }
+
+ #sfondo-bianco{
+    background-color: white;
+ }
+
+ .testo-due{
+    margin: 30px 0;
+    font-size: 25px;
+ }
+/* FINE Tabella + testo  */
+
 
 
 /*FINE MAIN*/
